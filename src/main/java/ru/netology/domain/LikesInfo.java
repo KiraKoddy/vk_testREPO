@@ -9,13 +9,13 @@ public class LikesInfo {
     public int getCount(){
         return count;
     }
-    public boolean getUserLikes(){
+    public boolean isUserLikes(){
         return userLikes;
     }
-    public boolean getCanLike(){
+    public boolean isCanLike(){
         return canLike;
     }
-    public boolean getCanPublish(){
+    public boolean isCanPublish(){
         return canPublish;
     }
     public void setCount(int count){

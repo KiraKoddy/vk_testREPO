@@ -7,13 +7,13 @@ public class Donut {
     private boolean canPublishFreeCopy;
     private String editMode;
 
-    public boolean getIsDonut(){
+    public boolean isIsDonut(){
         return isDonut;
     }
     public int getPaidDuration(){
         return paidDuration;
     }
-    public boolean getCanPublishFreeCopy(){
+    public boolean isCanPublishFreeCopy(){
         return canPublishFreeCopy;
     }
     public String getEditMode(){

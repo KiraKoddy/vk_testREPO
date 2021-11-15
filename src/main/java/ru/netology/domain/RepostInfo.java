@@ -7,7 +7,7 @@ public class RepostInfo {
     public int getCount(){
         return count;
     }
-    public boolean getUserReposted(){
+    public boolean isUserReposted(){
         return userReposted;
     }
     public void setCount(int count){

@@ -7,19 +7,19 @@ public class CommentsInfo {
     private boolean canClose;
     private boolean canOpen;
 
-    public int getCount() {
+    public int getCount(){
         return count;
     }
-    public boolean getCanPost(){
+    public boolean isCanPost(){
         return canPost;
     }
-    public boolean getGroupsCanPost(){
+    public boolean isGroupsCanPost(){
         return groupsCanPost;
     }
-    public boolean getCanClose(){
+    public boolean isCanClose(){
         return canClose;
     }
-    public boolean getCanOpen(){
+    public boolean isCanOpen(){
         return canOpen;
     }
     public void setCount (int count){
