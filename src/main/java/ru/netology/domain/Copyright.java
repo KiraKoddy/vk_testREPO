@@ -1,6 +1,6 @@
 package ru.netology.domain;
 
-public class CopyrightInfo {
+public class Copyright {
     private int id;
     private String link;
     private String name;
